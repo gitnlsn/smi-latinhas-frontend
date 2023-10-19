@@ -7,4 +7,4 @@ COPY . ${DIR}
 RUN yarn
 RUN npx next build
 
-CMD node dist/main
+CMD npx next start
